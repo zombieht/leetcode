@@ -1,4 +1,5 @@
-import TwoSum.TwoSum;
+import AddTwoNumbers.AddTwoNumbers2;
+import node.ListNode;
 
 /**
  * Created by zombie on 2017/7/24.
@@ -6,8 +7,11 @@ import TwoSum.TwoSum;
 public class Main {
 
     public static void main(String[] args) {
-        int[] b = TwoSum.twoSums(new int[]{2, 3, 4, 5}, 8);
-        System.out.println(b[0] + " " + b[1]);
+        ListNode l1 = null;
+        ListNode l2 = null;
+        ListNode ret = new AddTwoNumbers2().addTwoNumber2(l1, l2);
+        System.out.print(ret);
+
     }
 
 
